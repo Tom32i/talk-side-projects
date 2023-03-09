@@ -111,6 +111,11 @@
     list-style: none;
 }
 
+
+.reveal ul.list-emoji li > span {
+    margin-right: 0.25em;
+}
+
 .reveal ul ul,
 .reveal ul ol,
 .reveal ol ol,
@@ -365,6 +370,11 @@
 [data-background-color]:not(.default) h5 {
   color: white;
   text-shadow: 0px 1px 0.2em rgba(0,0,0,1);
+}
+
+.side-emoji {
+  position: absolute;
+  padding: 0 .25em;
 }
 
 /*********************************************
